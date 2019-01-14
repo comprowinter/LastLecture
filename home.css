@@ -21,6 +21,7 @@ body {
     height: 50px;
     width: 50px;
     background-color: #A8ADAD;
+    text-decoration: none;
 }
 h1{
     color:#FFB517;
@@ -39,7 +40,7 @@ h1{
     float:right;
     position: relative;
     display: inline-block;
-    margin-top: -50px;
+    margin-top: 50px;
     margin-right: 50px;
   }
   
