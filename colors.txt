@@ -1,0 +1,3 @@
+navy: #001A75 
+gold: #FFB517 
+gray: #A8ADAD
