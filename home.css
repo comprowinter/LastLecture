@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+* {
+  font-family: "Merriweather Sans", sans-serif;
+}
 #logo{
     float: left;
 }
