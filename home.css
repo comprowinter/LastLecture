@@ -1,10 +1,12 @@
 #logo{
     float: left;
-    display: inline;
 }
+
 #header{
     background-color: #A8ADAD;
-    border-bottom: #FFB517;
+    border-bottom: #FFB517 5px solid;
+    display: inline;
+    margin: 10px;
 }
 
 .button{
