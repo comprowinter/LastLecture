@@ -74,3 +74,6 @@ h1{
   .dropdown a:hover {background-color: #b1bbec;}
   
   .show {display: block;}
+.button a {
+  text-align: center;
+}
