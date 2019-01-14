@@ -1,7 +1,14 @@
+
 #navbar{
     background-color: #A8ADAD;
     border-bottom: #FFB517;
+}
 
+.button{
+    color: black;
+    height: 50px;
+    width: 50px;
+    background-color: #A8ADAD;
 }
 
 .dropbutton {
