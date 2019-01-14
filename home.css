@@ -1,3 +1,8 @@
+.about{
+    width: 50%;
+
+}
+
 body {
   margin: 0;
 }
@@ -44,7 +49,7 @@ h1{
   position: relative;
   display: inline-block;
   margin-top: 50px;
-  margin-right: 50px;
+  margin-right: 75px;
   text-align: center;
 }
 
@@ -79,5 +84,5 @@ h1{
 .button a {
     text-align: center;
     float: none;
-    
+
 }
