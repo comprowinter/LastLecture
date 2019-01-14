@@ -7,10 +7,11 @@ body {
 
 #header {
     background-color: #A8ADAD;
-    border-bottom: #FFB517 5px solid;
+    border-bottom: #FFB517 40px solid;
     display: inline-block;
     margin: 10px;
-    height: 200px;
+    height: 100px;
+    width: 100%;
 }
 
 .button{
