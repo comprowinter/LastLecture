@@ -2,11 +2,12 @@
     float: left;
 }
 
-#header{
+#header {
     background-color: #A8ADAD;
     border-bottom: #FFB517 5px solid;
     display: inline;
     margin: 10px;
+    height: 200px;
 }
 
 .button{
