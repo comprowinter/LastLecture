@@ -5,75 +5,73 @@ body {
   font-family: "Merriweather Sans", sans-serif;
 }
 #logo{
-    float: left;
+  float: left;
 }
 
 #header {
-    background-color: #A8ADAD;
-    border-bottom: #FFB517 40px solid;
-    display: inline-block;
-    margin: 10px;
-    width: 100%;
+  background-color: #A8ADAD;
+  border-bottom: #FFB517 40px solid;
+  display: inline-block;
+  margin: 10px;
+  width: 100%;
 }
 
 .button{
-    color: black;
-    height: 50px;
-    width: 50px;
-    background-color: #A8ADAD;
-    text-decoration: none;
-    float: none;
-    text-align: center;
+  color: black;
+  height: 50px;
+  width: 50px;
+  background-color: #A8ADAD;
+  text-decoration: none;
+  float: none;
+  text-align: center;
 }
 h1{
     color:#FFB517;
 }
 
 .dropbutton {
-    background-color:  #001A75;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    float: right;
-    position: relative;
-    display: inline-block;
-    margin-top: 50px;
-    margin-right: 100px;
-    text-align: center;
-  }
-  
-  .dropdown-content {
-      margin: none;
-    padding: none;
-    display: none;
-    position: absolute;
-    overflow: none;
-    right: 0;
-    z-index: 1;
-    float: none;
-    align-content: center;
-    text-decoration: none;
+  background-color:  #001A75;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-  }
-  
-  .dropdown-content a {
-    background-color: #001A75;
-    color: #ffffff;
-    padding: 25px 50px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    float: none;
-  }
-  
-  .dropdown a:hover {background-color: #b1bbec;}
-  
-  .show {display: block;}
-.button a {
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 100px;
   text-align: center;
 }
+
+.dropdown-content {
+    margin: none;
+  padding: none;
+  display: none;
+  position: absolute;
+  overflow: none;
+  right: 0;
+  z-index: 1;
+  float: none;
+  align-content: center;
+  text-decoration: none;
+
+}
+
+.dropdown-content a {
+  background-color: #001A75;
+  color: #ffffff;
+  padding: 25px 50px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  float: none;
+}
+
+.dropdown a:hover {background-color: #b1bbec;}
+
+.show {display: block;}
+.button {text-align: center;}
