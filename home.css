@@ -2,7 +2,7 @@
     float: left;
     display: inline;
 }
-#navbar{
+#header{
     background-color: #A8ADAD;
     border-bottom: #FFB517;
 }
@@ -12,6 +12,9 @@
     height: 50px;
     width: 50px;
     background-color: #A8ADAD;
+}
+h1{
+    color:#FFB517;
 }
 
 .dropbutton {
