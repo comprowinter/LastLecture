@@ -1,4 +1,7 @@
-
+#logo{
+    float: left;
+    display: inline;
+}
 #navbar{
     background-color: #A8ADAD;
     border-bottom: #FFB517;
