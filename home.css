@@ -62,8 +62,8 @@ h1{
   }
   
   .dropdown-content a {
-    background-color: white;
-    color: black;
+    background-color: #001A75;
+    color: #ffffff;
     padding: 25px 50px;
     text-decoration: none;
     display: block;
