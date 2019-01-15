@@ -10,3 +10,6 @@
 .essayBox:hover {
     background-color: #FFB517;
 }
+.essayBox h1 {
+    color: black;   
+}
