@@ -1,0 +1,12 @@
+.essayBox {
+    width: 20%;
+    height: 20%;
+    background-color: #A8ADAD;
+    transition: background-color 500ms ease-in-out 0s;
+    -o-transition: background-color 500ms ease-in-out 0s;
+    -moz-transition: background-color 500ms ease-in-out 0s;
+    -webkit-transition: background-color 500ms ease-in-out 0s;
+}
+.essayBox:hover {
+    background-color: #FFB517;
+}
