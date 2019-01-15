@@ -1,16 +1,40 @@
 .essayBox {
     margin: 0 2.5%;
     width: 20%;
-    height: 20%;
+    height: 200px;
     background-color: #A8ADAD;
     transition: background-color 500ms ease-in-out 0s;
     -o-transition: background-color 500ms ease-in-out 0s;
     -moz-transition: background-color 500ms ease-in-out 0s;
     -webkit-transition: background-color 500ms ease-in-out 0s;
-    transition: width 250ms ease-in-out 0s;
-    -o-transition: width 250ms ease-in-out 0s;
-    -moz-transition: width 250ms ease-in-out 0s;
-    -webkit-transition: width 250ms ease-in-out 0s;
+    transition: width 375ms ease-in-out 0s;
+    -o-transition: width 375ms ease-in-out 0s;
+    -moz-transition: width 375ms ease-in-out 0s;
+    -webkit-transition: width 375ms ease-in-out 0s;
+}
+.essayBox h1 {
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.essayBox p {
+    position: relative;
+    width: 100%;
+    height: 145px;
+}
+.essayBox p::after {
+    background: inherit;
+    bottom: 0;
+    content: "...";
+    margin-right: 1.0rem;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 1rem;
+}
 }
 a {
     text-decoration: none;
@@ -21,6 +45,5 @@ a {
 }
 .essayBox h1, .essayBox p {
     color: black; 
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-bottom: 5px;
 }
