@@ -1,6 +1,6 @@
 .essayBox {
     display: inline-block;
-    margin:0;
+    margin-top: 10px;
     width: 15%;
     height: 200px;
     overflow: hidden;
@@ -35,7 +35,6 @@ a {
 .essayBox:hover {
     background-color: #FFB517;
     width: 50%;
-    margin:0;
 }
 .essayBox h1, .essayBox p {
     color: black; 
