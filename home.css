@@ -12,10 +12,15 @@ body {
   float: left;
   height: 100px;
 }
+#navbar{
+  width: 100%;
+  background-color: #FFB517;
+  display: inline-block;
+  margin: 0;
+}
 
 #header {
   background-color: #A8ADAD;
-  border-bottom: #FFB517 40px solid;
   display: inline-block;
   width: 100%;
 }
@@ -25,9 +30,6 @@ body {
   height: 50px;
   width: 50px;
   background-color: #A8ADAD;
-  text-decoration: none;
-  float: none;
-  text-align: center;
 }
 h1{
   color:#FFB517;
@@ -40,10 +42,10 @@ h1{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  display: inline-block;
 }
 
 .dropdown {
-  float: right;
   position: relative;
   display: inline-block;
   margin-top: 50px;
@@ -59,7 +61,6 @@ h1{
   overflow: none;
   right: 0;
   z-index: 1;
-  float: none;
   align-content: center;
   text-decoration: none;
 }
@@ -71,7 +72,6 @@ h1{
   text-decoration: none;
   display: block;
   text-align: center;
-  float: none;
 }
 
 .dropdown a:hover {background-color: #b1bbec;}
@@ -80,5 +80,4 @@ h1{
 
 .button a {
   text-align: center;
-  float: none;
 }
