@@ -13,6 +13,10 @@
     -o-transition: width 250ms ease-in-out 0s;
     -moz-transition: width 250ms ease-in-out 0s;
     -webkit-transition: width 250ms ease-in-out 0s;
+    transition: margin 250ms ease-in-out 0s;
+    -o-transition: margin 250ms ease-in-out 0s;
+    -moz-transition: margin 250ms ease-in-out 0s;
+    -webkit-transition: margin 250ms ease-in-out 0s;
 }
 .essayBox h1 {
     font-size: 30px;
@@ -31,6 +35,7 @@ a {
 .essayBox:hover {
     background-color: #FFB517;
     width: 50%;
+    margin:0;
 }
 .essayBox h1, .essayBox p {
     color: black; 

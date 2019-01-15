@@ -1,0 +1,34 @@
+.essayBox {
+    display: inline-block;
+    margin:0 2.5%;
+    width: 15%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #A8ADAD;
+}
+.essayBox h1 {
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.essayBox p {
+    width: 100%;
+    height: 145px;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.essayBox h1, .essayBox p {
+    color: black; 
+    margin-bottom: 5px;
+}
+.essayRow {
+    height: 200px;
+    width: 100%;
+}
+
+.margin{
+    margin:0;
+}
