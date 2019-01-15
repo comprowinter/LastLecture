@@ -17,7 +17,6 @@ body {
   width: 100%;
   background-color: #FFB517;
   margin-top: -2px;
-  display: inline;
 }
 
 #header {
@@ -43,9 +42,11 @@ h1{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  display: inline-block;
 }
 
 .dropdown {
+  display: inline;
 }
 
 .dropdown-content {
