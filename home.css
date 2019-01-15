@@ -5,10 +5,10 @@
 body {
   margin: 0;
 }
-/* {
-  font-family: "Merriweather Sans", sans-serif;
+* {
+  font-family: "Open Sans", sans-serif;
 }
-*/
+
 #logo{
   float: left;
   height: 100px;
