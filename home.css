@@ -12,10 +12,13 @@ body {
   float: left;
   height: 100px;
 }
+#navbar{
+  background-color: #FFB517;
+
+}
 
 #header {
   background-color: #A8ADAD;
-  border-bottom: #FFB517 40px solid;
   display: inline-block;
   width: 100%;
 }
