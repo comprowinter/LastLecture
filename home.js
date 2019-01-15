@@ -4,7 +4,7 @@ function myFunction(id) {
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbutton')) {
+  if (!event.target.matches('.dropbutton1')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
@@ -16,3 +16,15 @@ window.onclick = function(event) {
   }
 }
 
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbutton2')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
