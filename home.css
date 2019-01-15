@@ -17,7 +17,7 @@ body {
   width: 100%;
   background-color: #FFB517;
   margin-top: -2px;
-  display: inline-block;
+  display: inline;
 }
 
 #header {
@@ -46,7 +46,6 @@ h1{
 }
 
 .dropdown {
-  position: relative;
 }
 
 .dropdown-content {
