@@ -31,9 +31,6 @@ a {
     background-color: #FFB517;
     width: 50%;
 }
-.essayBox:hover {
-
-}
 .essayBox h1, .essayBox p {
     color: black; 
     margin-bottom: 5px;
