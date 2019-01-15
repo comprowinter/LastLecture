@@ -40,7 +40,7 @@ h1{
 #dropdownMenuButton {
   background-color: #001A75;
 }
-.dropdown-item:active, .dropdown-item.active {
+.dropdown-item.active, .dropdown-item:active {
   background-color: #001A75;
   color: white;
 }
