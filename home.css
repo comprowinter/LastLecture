@@ -1,6 +1,5 @@
 .about{
-    width: 50%;
-
+  width: 50%;
 }
 
 body {
@@ -31,7 +30,7 @@ body {
   text-align: center;
 }
 h1{
-    color:#FFB517;
+  color:#FFB517;
 }
 
 .dropbutton {
@@ -53,7 +52,7 @@ h1{
 }
 
 .dropdown-content {
-    margin: none;
+  margin: none;
   padding: none;
   display: none;
   position: absolute;
@@ -63,7 +62,6 @@ h1{
   float: none;
   align-content: center;
   text-decoration: none;
-
 }
 
 .dropdown-content a {
@@ -81,7 +79,6 @@ h1{
 .show {display: block;}
 
 .button a {
-    text-align: center;
-    float: none;
-
+  text-align: center;
+  float: none;
 }
