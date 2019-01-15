@@ -36,42 +36,40 @@ h1{
 }
 
 .dropbutton1, .dropbutton2 {
-  background-color:  #001A75;
+  background-color: #062F4F;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  display: inline-block;
 }
 
 .dropdown {
-  display: inline;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-  margin: none;
   padding: none;
   display: none;
   position: absolute;
+  background-color: #f1f1f1;
   overflow: none;
   right: 0;
   z-index: 1;
-  text-decoration: none;
+  float: none;
+  align-content: center;
 }
 
 .dropdown-content a {
-  background-color: #001A75;
-  color: #ffffff;
-  padding: 25px 50px;
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
+  align-content: center;
+  text-align: center;
+  float: none;
 }
-
 .dropdown a:hover {background-color: #b1bbec;}
 
 .show {display: block;}
-
-.button a {
-  text-align: center;
-}
