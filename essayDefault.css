@@ -7,6 +7,12 @@
     -moz-transition: background-color 500ms ease-in-out 0s;
     -webkit-transition: background-color 500ms ease-in-out 0s;
 }
+.essayBox * {
+    text-decoration: none;
+}
 .essayBox:hover {
     background-color: #FFB517;
+}
+.essayBox h1 {
+    color: black;   
 }
