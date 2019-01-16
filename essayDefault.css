@@ -1,22 +1,30 @@
 .essayRow {
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
     height: 200px;
     width: 80%;
+    transition: width 250ms ease-in-out;
+    -o-transition: width 250ms ease-in-out;
+    -moz-transition: width 250ms ease-in-out;
+    -webkit-transition: width 250ms ease-in-out;
 }
 .essayBox {
-    width: 15%;
+    width: 20%;
     height: 200px;
     background-color: #A8ADAD;
     display: inline-block;
-    margin: 0 1.25%;
+    margin: 0;
     overflow: hidden;
-    transition: background-color 500ms ease-in-out 0s;
-    -o-transition: background-color 500ms ease-in-out 0s;
-    -moz-transition: background-color 500ms ease-in-out 0s;
-    -webkit-transition: background-color 500ms ease-in-out 0s;
-    transition: width 250ms ease-in-out 0s;
-    -o-transition: width 250ms ease-in-out 0s;
-    -moz-transition: width 250ms ease-in-out 0s;
-    -webkit-transition: width 250ms ease-in-out 0s;
+    transition: background-color 250ms ease-in-out;
+    -o-transition: background-color 250ms ease-in-out;
+    -moz-transition: background-color 250ms ease-in-out;
+    -webkit-transition: background-color 250ms ease-in-out;
+    transition: width 250ms ease-in-out;
+    -o-transition: width 250ms ease-in-out;
+    -moz-transition: width 250ms ease-in-out;
+    -webkit-transition: width 250ms ease-in-out;
 }
 .essayBox h1 {
     font-size: 30px;
@@ -36,9 +44,11 @@ a {
 }
 .essayRow .essayBox:hover {
     background-color: #FFB517;
-    width: 35%;
+    width: 39.0625%;
 }
 .essayRow:hover {
+    margin-left: 0;
+    margin-right: 0;
     width: 100%;
 }
 .essayBox h1, .essayBox p {
