@@ -1,50 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="home.css" rel="stylesheet" type="text/css" />
-        <link href="test.css" rel="stylesheet" type="text/css" />
-        <script src="test.js"></script>
-        <!-- <link rel="stylesheet" id="education-hub-google-fonts-css" href="//fonts.googleapis.com/css?family=Merriweather+Sans%3A400italic%2C700italic%2C400%2C700%7COpen+Sans%3A400italic%2C700italic%2C400%2C700&amp;subset=latin%2Clatin-ext" type="text/css" media="all"> -->
-    </head>
-    <body>
-        <div id="header">
-            <img id="logo" src="./Last_Lecture_Logo.jpg" />
-        </div>
-        <div id="navbar">
-            <div class="dropdown">
-                <button onclick="myFunction('dropdownYear')" class="dropbutton">year</button>
-                <div id="dropdownYear" class="dropdown-content">
-                    <nav id="better">
-                        <div class="button">2014-2015</div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button onclick="myFunction('dropdownTopic')" class="dropbutton">topic</button>
-            <div id="dropdownTopic" class="dropdown-content">
-                <nav id="better">
-                    <div class="button">2014-2015</div>
-                </nav>
-            </div>
-        </div>
-        <div class="essayRow">
-            <a href="https://www.someRandomURL.com/allThisCrazyStuff"><div class="essayBox">
-                <h1>Title</h1>
-                <p>Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel auctor elit. Curabitur vel cursus nisl, in elementum risus. Aenean maximus purus sed ex porttitor dignissim. Etiam eget eleifend nisl. Pellentesque feugiat sollicitudin purus vel finibus. Quisque tempor, dui vitae suscipit interdum, velit sapien feugiat augue, faucibus scelerisque odio magna.</p>
-            </div></a>
-            <a href="https://www.someRandomURL.com/allThisCrazyStuff"><div class="essayBox">
-                <h1>Title</h1>
-                <p>Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel auctor elit. Curabitur vel cursus nisl, in elementum risus. Aenean maximus purus sed ex porttitor dignissim. Etiam eget eleifend nisl. Pellentesque feugiat sollicitudin purus vel finibus. Quisque tempor, dui vitae suscipit interdum, velit sapien feugiat augue, faucibus scelerisque odio magna.</p>
-            </div></a>
-            <a href="https://www.someRandomURL.com/allThisCrazyStuff"><div class="essayBox">
-                <h1>Title</h1>
-                <p>Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel auctor elit. Curabitur vel cursus nisl, in elementum risus. Aenean maximus purus sed ex porttitor dignissim. Etiam eget eleifend nisl. Pellentesque feugiat sollicitudin purus vel finibus. Quisque tempor, dui vitae suscipit interdum, velit sapien feugiat augue, faucibus scelerisque odio magna.</p>
-            </div></a>
-            <a href="https://www.someRandomURL.com/allThisCrazyStuff"><div class="essayBox">
-                <h1>Title</h1>
-                <p>Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel auctor elit. Curabitur vel cursus nisl, in elementum risus. Aenean maximus purus sed ex porttitor dignissim. Etiam eget eleifend nisl. Pellentesque feugiat sollicitudin purus vel finibus. Quisque tempor, dui vitae suscipit interdum, velit sapien feugiat augue, faucibus scelerisque odio magna.</p>
-            </div></a>
-        </div>
+<head>
+<link href="css/myProjects.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/myProjects.js"></script>
+</head>
+
+	<body onload="moveMySelf()">
+		<div id='divGn'>
+			<div id='mySelfBar' onclick="moveMySelf()"><div id="lnkSelf">Lorem ipsum</div></div>
+			<div id='mySkillsBar' onclick="moveMySkills()"><div id="lnkSkills">Ut enim</div></div>
+			<div id='MyHobbiesBar' onclick="moveMyHobbies()"><div id="lnkHobbies">Duis aute</div></div>
+			<div id='myContent'>
+            	<p id="txtMySelf" hidden="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+            	<p id="txtMySkills" hidden="true">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            	<p id="txtMyHobbies" hidden="true">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+			</div>
+		</div>
     </body>
 </html>
