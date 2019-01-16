@@ -1,34 +1,56 @@
-.essayBox {
-    display: inline-block;
-    margin:0 2.5%;
-    width: 15%;
-    height: 200px;
-    overflow: hidden;
-    background-color: #A8ADAD;
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700italic);
+
+#lnkSelf, #lnkSkills, #lnkHobbies{
+	font-family: 'Lora', serif;
+    font-size: 24px;
+	font-weight:bold;
+	color: #FFFFFF;
+	margin-top: 150px;
+    margin-right: 20px;
+    margin-left: 10px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
 }
-.essayBox h1 {
+p{
+	padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	font-family: 'Lora', serif;
+	font-weight:bold;
+	text-align:justify;
     font-size: 30px;
-    width: 100%;
-    height: 40px;
-    overflow: hidden;
-}
-.essayBox p {
-    width: 100%;
-    height: 145px;
-    overflow: hidden;
-}
-a {
-    text-decoration: none;
-}
-.essayBox h1, .essayBox p {
-    color: black; 
-    margin-bottom: 5px;
-}
-.essayRow {
-    height: 200px;
-    width: 100%;
+	color: #F3FFE2;
+	}
+
+#mySelfBar {
+	background-color:#000000;
+	height: 280px;
+	width: 100px;
+	position: absolute;
 }
 
-.margin{
-    margin:0;
+#mySkillsBar {
+	background-color:#000000;
+	height: 280px;
+	width: 100px;
+	left: 100px;
+	position: absolute;
+}
+
+#MyHobbiesBar {
+	background-color:#000000;
+	height: 280px;
+	width: 100px;
+	left: 200px;
+	position: absolute;
+}
+#myContent {
+	background-color:#000000;
+	height: 280px;
+	width: 400px;
+	left: 280px;
+	position: absolute;
 }

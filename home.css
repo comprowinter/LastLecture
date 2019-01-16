@@ -1,7 +1,12 @@
-.about{
-  width: 50%;
+.about h1 {
+  text-align: center;
+  text-decoration: underline;
 }
-
+.about p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
 body {
   margin: 0;
 }
@@ -43,7 +48,7 @@ body {
   background-color: #A8ADAD;
 }
 h1{
-  color:#FFB517;
+  color:#001A75;
 }
 .dropdown {
   display: inline;
