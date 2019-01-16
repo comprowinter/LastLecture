@@ -1,4 +1,4 @@
-var lastRow = document.getElementsByClassName("essayRow").lastElementChild;
+var lastRow = document.getElementById("lastRow");
 if(lastRow.childElementCount === 3){
     lastRow.style.margin="25px 20% 0 20%";
     lastRow.addEventListener("onmouseon", lastRow.style.margin="25px 10% 0 10%");
