@@ -1,8 +1,5 @@
 .essayRow {
-    margin-top: 25px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 0;
+    margin: 25px auto 0 auto;
     height: 200px;
     width: 80%;
     transition: width 250ms ease-in-out;
