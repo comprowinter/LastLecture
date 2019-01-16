@@ -1,3 +1,12 @@
+.about h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.about p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
 body {
   margin: 0;
 }
@@ -15,10 +24,21 @@ body {
   background-color: #FFB517;
   margin-top: -2px;
 }
-#header {
+.header {
   background-color: #A8ADAD;
-  display: inline-block;
+  display: inline-flex;
   width: 100%;
+}
+#headlogo{
+  text-align: left
+}
+#headtitle{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 240px;
+  margin-top: 20px;
+  color:  #001A75;
 }
 
 .button{
@@ -28,7 +48,7 @@ body {
   background-color: #A8ADAD;
 }
 h1{
-  color:#FFB517;
+  color:#001A75;
 }
 .dropdown {
   display: inline;
