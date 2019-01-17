@@ -75,7 +75,14 @@ h1{
 }
 .left{
   float: left;
+  justify-content: center;
 } 
 .right{
   float: right;
+  justify-content: center;
+}
+
+.inline{
+  clear: both;
+  display: inline;
 }
