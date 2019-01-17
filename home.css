@@ -65,6 +65,18 @@ h1{
   background-color: #001A75;
   color: white;
 }
-#teachers img {
-  width: 15%;
+#teachers {
+  width: 50%;
+  margin: 25px 25%;
+}
+
+img {
+  border-radius: 50%;
+}
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
 }
