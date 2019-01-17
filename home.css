@@ -76,9 +76,17 @@ h1{
 }
 .left{
   float: left;
+  justify-content: center;
 } 
 .right{
   float: right;
+  justify-content: center;
+}
+
+#teachers{
+  width: 40%;
+  display: inline;
+  clear: both;
 }
 #divider {
   width: 100%;
