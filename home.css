@@ -83,9 +83,10 @@ h1{
   justify-content: center;
 }
 
-.inline{
-  clear: both;
+#teachers{
+  width: 40%;
   display: inline;
+  clear: both;
 }
 #divider {
   width: 100%;
