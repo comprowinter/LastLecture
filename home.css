@@ -65,18 +65,17 @@ h1{
   background-color: #001A75;
   color: white;
 }
-#teachers {
-  width: 50%;
-  margin: 25px 25%;
+#teachers h3 {
+  width: 20%;
+  text-align: center;
 }
-
 #teachers div img {
+  width: 20%;
   border-radius: 50%;
 }
 .left{
   float: left;
-}
-
+} 
 .right{
   float: right;
 }
