@@ -31,6 +31,7 @@ body {
 }
 #headlogo{
   float: left;
+  position: absolute;
 }
 #headtitle{
   width: 100%;
@@ -85,4 +86,8 @@ h1{
 .inline{
   clear: both;
   display: inline;
+}
+#divider {
+  width: 100%;
+  background-color: black;
 }
