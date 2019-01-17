@@ -65,3 +65,7 @@ h1{
   background-color: #001A75;
   color: white;
 }
+#teachers {
+  width: 50%;
+  margin: 25px 25%;
+}
