@@ -24,6 +24,19 @@ body {
   display: inline-block;
   width: 100%;
 }
+#headlogo{
+  float: left;
+  position: absolute;
+}
+#headtitle{
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  right: 442px;
+  color:  #001A75;
+}
 
 .button{
   color: black;
@@ -70,9 +83,21 @@ h1{
   text-align: center;
   float: none;
 }
-.dropdown a:hover {background-color: #b1bbec;}
+.left{
+  float: left;
+  justify-content: center;
+} 
+.right{
+  float: right;
+  justify-content: center;
+}
 
-.show {display: block;}
-.box {
-  
+#teachers{
+  width: 40%;
+  display: inline;
+  clear: both;
+}
+#divider {
+  width: 100%;
+  background-color: black;
 }
