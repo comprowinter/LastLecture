@@ -95,12 +95,30 @@ h1{
   justify-content: center;
 }
 
-#teachers{
-  width: 40%;
-  display: inline;
-  clear: both;
+#teachers div {
+  display: inline-block;
+}
+.inline h3 {
+  font-size: 25px;
+  height: 30px;
+  text-align: center;
+}
+.inline img {
+  width: 20vw;
+  margin: 0 14.2857142857142857142857vw;
+}
+#frampton {
+  grid-column: 2 / 3;
+}
+#martinez {
+  grid-column: 4 / 5;
 }
 #divider {
   width: 100%;
   background-color: black;
+}
+.about {
+  width: 50%;
+  margin: 0 25%;
+  text-align: center;
 }
