@@ -33,7 +33,8 @@ body {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
-  margin-top: 20px;
+  padding-top: 20px;
+  height: 110px;
   right: 442px;
   color:  #001A75;
   background-color: #A8ADAD;
@@ -43,7 +44,7 @@ body {
   color: black;
   height: 50px;
   width: 50px;
-  background-color: #A8ADAD;
+  background-color: #001A75;
 }
 h1{
   color:#FFB517;
