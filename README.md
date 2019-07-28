@@ -1,5 +1,5 @@
 # LastLecture
-[<h1 align="center">Welcome to Maeser Last Lecture 👋</h1>
+<h1 align="center">Welcome to Maeser Last Lecture 👋</h1>
 <p>
 </p>
 
