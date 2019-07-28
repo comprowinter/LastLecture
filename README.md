@@ -1,4 +1,5 @@
 # LastLecture
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <h1 align="center">Welcome to Maeser Last Lecture 👋</h1>
 <p>
 </p>
@@ -10,6 +11,15 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 ## Contributors ✨
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/robomonk1717"><img src="https://avatars1.githubusercontent.com/u/35753484?v=4" width="100px;" alt="robomonk1717"/><br /><sub><b>robomonk1717</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=robomonk1717" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
