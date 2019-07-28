@@ -31,6 +31,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "zobiejrz",
+      "name": "Ben Zobrist",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12979847?v=4",
+      "profile": "https://github.com/zobiejrz",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
