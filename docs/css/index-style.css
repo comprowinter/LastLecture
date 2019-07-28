@@ -42,14 +42,20 @@ body {
 .selected .item {
     display: grid;
     justify-items: center;
-    background-color: rgb(185, 185, 185);
+    border: 1px solid rgb(68, 68, 68);
+    background-color: rgb(245, 245, 245);
     border-radius: 10px;
     margin: 4px;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
 }
 
-.selected .item img {
+.item:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.item img {
     width: 75%;
     margin: 2px;
     border-radius: 10px;
