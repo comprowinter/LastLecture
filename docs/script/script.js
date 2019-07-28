@@ -1,3 +1,3 @@
-function LoadPageFromAll(name) {
-    window.open('./page/'+name+'.html', '_self');
+function LoadPage(name) {
+    window.open('./html/pages/'+name+'.html', '_self');
 }
