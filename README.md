@@ -7,12 +7,8 @@
 
 ### 🏠 [Homepage](maeserlastlectures.com)
 
-<<<<<<< HEAD
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
-=======
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
->>>>>>> parent of 06096d0... Update README.md
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
