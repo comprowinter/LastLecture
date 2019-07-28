@@ -1,12 +1,11 @@
 body {
     margin: 0;
     display: grid;
-    background-color: rgb(231, 231, 231);
 }
 
 #nav {
     width: 100%;
-    background-color: rgb(6, 8, 160);
+    background-color: #001A75 ;
     grid-area: 1 / 1 / 2 / 4;
     display: flex;
     justify-content: center;
