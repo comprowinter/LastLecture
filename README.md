@@ -1,5 +1,5 @@
 # LastLecture
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 <h1 align="center">Welcome to Maeser Last Lecture 👋</h1>
 <p>
 </p>
@@ -19,6 +19,7 @@
     <td align="center"><a href="https://github.com/ilias16"><img src="https://avatars0.githubusercontent.com/u/46326604?v=4" width="100px;" alt="ilias16"/><br /><sub><b>ilias16</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=ilias16" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/TeacherTed"><img src="https://avatars1.githubusercontent.com/u/45575751?v=4" width="100px;" alt="TeacherTed"/><br /><sub><b>TeacherTed</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=TeacherTed" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/zobiejrz"><img src="https://avatars3.githubusercontent.com/u/12979847?v=4" width="100px;" alt="Ben Zobrist"/><br /><sub><b>Ben Zobrist</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=zobiejrz" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/thurley998"><img src="https://avatars2.githubusercontent.com/u/46353958?v=4" width="100px;" alt="thurley998"/><br /><sub><b>thurley998</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=thurley998" title="Code">💻</a></td>
   </tr>
 </table>
 
