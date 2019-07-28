@@ -7,7 +7,7 @@
 
 ### 🏠 [Homepage](maeserlastlectures.com)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -15,9 +15,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>
-<tr>
-<td align="center"><a href="https://github.com/thurley998"><img src="https://avatars2.githubusercontent.com/u/46353958?v=4" width="100px;" alt="thurley998"/><br /><sub><b>thurley998</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=thurley998" title="Code">💻</a></td>
-</tr>
+  <tr>
+    <td align="center"><a href="https://github.com/thurley998"><img src="https://avatars2.githubusercontent.com/u/46353958?v=4" width="100px;" alt="thurley998"/><br /><sub><b>thurley998</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=thurley998" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ilias16"><img src="https://avatars0.githubusercontent.com/u/46326604?v=4" width="100px;" alt="ilias16"/><br /><sub><b>ilias16</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=ilias16" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
