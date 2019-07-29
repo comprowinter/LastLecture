@@ -40,7 +40,9 @@
       "contributions": [
         "code",
         "doc",
-        "maintenance"
+        "maintenance",
+        "ideas",
+        "bug"
       ]
     },
     {
