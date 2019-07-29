@@ -25,7 +25,7 @@ Don't see your lecture on the site? We've done our best to show as many lectures
 <tab>**This option might take longer, please try #1 first.** The current site maintenance are more than happy to be reached out to individually, but the response time will be longer. They will still need your name, graduating year, and lecture, but can put it on the site just the same.
 
 ## Bug Reports
-There isn't a specific format for you to follow when writing a bug report, but there is some information that should be included.
+There is a template to use for Bug Reports, but there is some information that should definitely be included.
 
 * What were you doing to find the bug?
 * What did you expect to happen?
@@ -34,7 +34,7 @@ There isn't a specific format for you to follow when writing a bug report, but t
 After you submit a report, please watch it. If developers have any problems they might need to ask questions. If you are a KGMPA student/alumni and want to submit a pull request for a bug you filed that is fine, but wait a bit to get the green light from a developer before starting so everyone is in the loop.
 
 ## Feature Requests
-Anyone is more than welcome to drop feature requests in the [issues tab](https://github.com/comprowinter/LastLecture/issues). After submitting a request, keep an eye on it. A developer might want you to answer questions or maybe even test out your feature to make sure everything works properly.
+Anyone is more than welcome to drop feature requests in the [issues tab](https://github.com/comprowinter/LastLecture/issues). After submitting a request, keep an eye on it. A developer might want you to answer questions or maybe even test out your feature to make sure everything works properly. There is a template for Feature Requests if you get lost, so don't be afraid to use it.
 
 Alumni/current students are also more than welcome to submit a pull request for a feature, but be sure to get the green light from a developer before starting.
 
