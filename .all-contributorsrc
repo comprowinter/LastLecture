@@ -1,0 +1,73 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "robomonk1717",
+      "name": "robomonk1717",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/35753484?v=4",
+      "profile": "https://github.com/robomonk1717",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ilias16",
+      "name": "ilias16",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46326604?v=4",
+      "profile": "https://github.com/ilias16",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "TeacherTed",
+      "name": "TeacherTed",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45575751?v=4",
+      "profile": "https://github.com/TeacherTed",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zobiejrz",
+      "name": "Ben Zobrist",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12979847?v=4",
+      "profile": "https://github.com/zobiejrz",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "ideas",
+        "bug"
+      ]
+    },
+    {
+      "login": "thurley998",
+      "name": "thurley998",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46353958?v=4",
+      "profile": "https://github.com/thurley998",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "nebrelbug",
+      "name": "Ben Gubler",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25597854?v=4",
+      "profile": "http://www.bengubler.com",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "LastLecture",
+  "projectOwner": "comprowinter",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
