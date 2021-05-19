@@ -1,53 +1,66 @@
 <html>
-    <head>
+<head>
 
-        <title>Maeser Last Lectures</title>
-        <link rel="stylesheet" href="./css/style.css" type="text/css">
-        <link rel="stylesheet" href="./css/index-style.css" type="text/css">
-    </head>
+    <title>Maeser Last Lectures</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/index-style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <body>
-        <div id='nav'>
-            <ul>
-                <a href=""><li>Home</li></a>
-                <a href="./html/all.html"><li>Lectures</li></a>
-                <a href="./html/about.html"><li>About</li></a>
-            </ul>
-        </div>
-        <div id='banner'><img src="./img/Last_Lecture_Logo.jpg"></div>
-        <div id='featured' class='selected'>
-            <div class='title'><h1>Featured</h1></div>
-            <div class='item' onclick="LoadPage('2016_JAMHAN')">
-                <img src="./img/MaeserPrepAcademy_MascotHeadBlack and White.png">
-                <div>Human<br>by James Han</div>
-            </div>
-            <div class='item' onclick="LoadPage('2017_LIAJOO')">
-                <img src="./img/MaeserPrepAcademy_MascotHeadBlack and White.png">
-                <div>ABC is not as Easy as 1, 2, 3<br>by Lia Joo</div>
-            </div>
-            <div class='item' onclick="LoadPage('2016_KATCLA')">
-                <img src="./img/MaeserPrepAcademy_MascotHeadBlack and White.png">
-                <div>He Gave Me His Hair<br>by Katie Clark</div>
+</head>
+
+<body>
+    <div class="pageWrapper">
+    <div id='nav'>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="./html/all.html">All Essays</a></li>
+            <li><a href="./html/about.html">About</a></li>
+            <li><a href="https://maeserprep.org/">Back</a></li>
+        </ul>
+    </div>
+    <div id='banner'>
+        <div id="banner-center">
+            <div id="banner-content">
+                <h1>Maeser Last Lectures</h1>
+                <a href="./html/about.html" id="about-button">What is a last lecture?</a>
             </div>
         </div>
-        <div id='recent' class='selected' style="display: none">
-            <div class='title'><h1>Recent Winners</h1></div>
-            <div class='item'>
-                <img src="./img/MaeserPrepAcademy_MascotHeadBlack and White.png">
-                <div>A Test Speach<br>by John Doe</div>
+    </div>
+    <div id='featured' class='selected'>
+        <div class='title'>
+            <h1 id="winner-heading">Winners</h1>
+            <select id="select-year-dropdown" onchange="selectYear(this.value)">
+                <option value="" disabled selected>Select Year</option>
+                <option value="ll2021" onclick="selectYear('2021')">2021</option>
+            </select>
+        </div>
+        <div class="winnerWrapper">
+            <div class="item" id="filler">
+                <h1>Please Select a Year</h1>
             </div>
-            <div class='item'>
-                <img src="./img/MaeserPrepAcademy_MascotHeadBlack and White.png">
-                <div>A Test Speach<br>by John Doe</div>
+            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+                <div class="placeWrapper"><h1 class='heading'>1</h1><h2 class='heading'>st</h2></div>
+                <div>42<br>by Tanner Heaton</div>
             </div>
-            <div class='item'>
-                <img src="./img/MaeserPrepAcademy_MascotHeadBlack and White.png">
-                <div>A Test Speach<br>by John Doe</div>
+            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+                <div class="placeWrapper"><h1 class='heading'>2</h1><h2 class='heading'>nd</h2></div>
+                <div>42<br>by Tanner Heaton</div>
+            </div>
+            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+                <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
+                <div>42<br>by Tanner Heaton</div>
             </div>
         </div>
-        <div id='footer'></div>
+        <div class="about-wrapper">
+        <a href="./html/all.html" id="view-all-button">View All Essays</a>
+        </div>
+    </div>
+    <div id='footer'></div>
 
-    </body>
     <script src="./script/script.js"></script>
+    </div>
+</body>
+<script src="./script/script.js"></script>
 
 </html>
