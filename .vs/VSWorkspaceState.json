@@ -3,6 +3,7 @@
     "",
     "\\.github",
     "\\docs",
+    "\\docs\\css",
     "\\docs\\html",
     "\\docs\\pdf",
     "\\docs\\script"
