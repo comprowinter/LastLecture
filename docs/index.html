@@ -10,12 +10,13 @@
 </head>
 
 <body>
+    <div class="pageWrapper">
     <div id='nav'>
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="./html/all.html">All Last Lectures</a></li>
+            <li><a href="./html/all.html">All Essays</a></li>
             <li><a href="./html/about.html">About</a></li>
-            <li><a href="https://maeserprep.org/">Back to Maeserprep.org</a></li>
+            <li><a href="https://maeserprep.org/">Back</a></li>
         </ul>
     </div>
     <div id='banner'>
@@ -28,30 +29,37 @@
     </div>
     <div id='featured' class='selected'>
         <div class='title'>
-            <h1>Winners</h1>
-            <select onchange="selectYear(this.value)">
+            <h1 id="winner-heading">Winners</h1>
+            <select id="select-year-dropdown" onchange="selectYear(this.value)">
                 <option value="" disabled selected>Select Year</option>
-                <option value="ll2016" onclick="selectYear('2016')">2016</option>
-                <option value="ll2017" onclick="selectYear('2017')">2017</option>
-                <option value="ll2018" onclick="selectYear('2018')">2018</option>
+                <option value="ll2021" onclick="selectYear('2021')">2021</option>
             </select>
         </div>
-        <div class='item ll2016' onclick="LoadPage('2016_JAMHAN')">
-            <img src="./img/generic.png">
-            <div>Human<br>by James Han</div>
+        <div class="winnerWrapper">
+            <div class="item" id="filler">
+                <h1>Please Select a Year</h1>
+            </div>
+            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+                <div class="placeWrapper"><h1 class='heading'>1</h1><h2 class='heading'>st</h2></div>
+                <div>42<br>by Tanner Heaton</div>
+            </div>
+            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+                <div class="placeWrapper"><h1 class='heading'>2</h1><h2 class='heading'>nd</h2></div>
+                <div>42<br>by Tanner Heaton</div>
+            </div>
+            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+                <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
+                <div>42<br>by Tanner Heaton</div>
+            </div>
         </div>
-        <div class='item ll2017' onclick="LoadPage('2017_LIAJOO')">
-            <img src="./img/generic.png">
-            <div>ABC is not as Easy as 1, 2, 3<br>by Lia Joo</div>
-        </div>
-        <div class='item ll2018' onclick="LoadPage('2016_KATCLA')">
-            <img src="./img/generic.png">
-            <div>He Gave Me His Hair<br>by Katie Clark</div>
+        <div class="about-wrapper">
+        <a href="./html/all.html" id="view-all-button">View All Essays</a>
         </div>
     </div>
     <div id='footer'></div>
 
     <script src="./script/script.js"></script>
+    </div>
 </body>
 <script src="./script/script.js"></script>
 
