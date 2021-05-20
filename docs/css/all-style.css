@@ -21,8 +21,8 @@ body {
     text-align: center;
     padding: 10px 20px 10px 20px;
 }
-    #content-table tr {
-        border-bottom: 5px solid #020059;
+    #content-table tr:hover {
+        cursor: pointer;
     }
 #content th:nth-child(3) {
     text-align: left;

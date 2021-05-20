@@ -1,12 +1,9 @@
 body {
-    grid-template-rows: 50px auto 50px;
-    grid-template-columns: 1fr 8fr 1fr;
 }
 
 #content {
-    grid-area: 2 / 2 / 3 / 3;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
 
-#footer {
-    grid-area: 3 / 1 / 4 / 4;
-}

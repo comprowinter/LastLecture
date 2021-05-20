@@ -1,5 +1,5 @@
 function LoadPage(name) {
-    window.open('/docs/pdf/'+name+'.pdf', '_self');
+    window.open('/pdf/'+name+'.pdf', '_self');
 }
 
 function selectYear(year) {

@@ -32,6 +32,7 @@
             <h1 id="winner-heading">Winners</h1>
             <select id="select-year-dropdown" onchange="selectYear(this.value)">
                 <option value="" disabled selected>Select Year</option>
+                <option value="ll2020" onclick="selectYear('2020')">2020</option>
                 <option value="ll2021" onclick="selectYear('2021')">2021</option>
             </select>
         </div>
@@ -39,17 +40,31 @@
             <div class="item" id="filler">
                 <h1>Please Select a Year</h1>
             </div>
-            <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
+            <!-- 2020 -->
+            <div class='item ll2020' onclick="LoadPage('whyItDoesntMatter-Hasson-2020')">
                 <div class="placeWrapper"><h1 class='heading'>1</h1><h2 class='heading'>st</h2></div>
-                <div>42<br>by Tanner Heaton</div>
+                <div>Why it Doesn't Matter<br>By: Ammon Hasson</div>
+            </div>
+            <div class='item ll2020' onclick="LoadPage('theBetterStory-Bailey-2020')">
+                <div class="placeWrapper"><h1 class='heading'>2</h1><h2 class='heading'>nd</h2></div>
+                <div>The Better Story<br>By: Carson Bailey</div>
+            </div>
+            <div class='item ll2020' onclick="LoadPage('thickAsThieves-Felt-2020')">
+                <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
+                <div>Thick as Thieves<br>By: Claire Felt</div>
+            </div>
+            <!-- 2021 -->
+            <div class='item ll2021' onclick="LoadPage('toMyDearestProblems-Gunderson-2021')">
+                <div class="placeWrapper"><h1 class='heading'>1</h1><h2 class='heading'>st</h2></div>
+                <div>To My Dearest Problems<br>By: Rachel Gunderson</div>
             </div>
             <div class='item ll2021' onclick="LoadPage('toMyDearestProblems-Gundersen-2021')">
                 <div class="placeWrapper"><h1 class='heading'>2</h1><h2 class='heading'>nd</h2></div>
-                <div>42<br>by Tanner Heaton</div>
+                <div>Currently Not Working<br>By: Your Favorite French Fry</div>
             </div>
             <div class='item ll2021' onclick="LoadPage('FortyTwo-Heaton')">
                 <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
-                <div>42<br>by Tanner Heaton</div>
+                <div>42<br>By: Tanner Heaton</div>
             </div>
         </div>
         <div class="about-wrapper">
