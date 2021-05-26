@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<ul class="post-list">
+	{%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
+	{% for post in site.categories.WINNER_2021 %}
+	<li>
+	<span class="post-meta">{{ post.date | date: date_format }} • {{ post.author }}</span>
+	<h3>
+		<a class="post-link" href="{{ post.url | relative_url }}">
+		{{ post.title | escape }} ({{ post.description | escape }})
+		</a>
+	</h3>
+	{%- if site.show_excerpts -%}
+		{{ post.excerpt }}
+	{%- endif -%}
+	</li>
+	{% endfor %}
+</ul>
