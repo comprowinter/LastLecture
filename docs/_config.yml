@@ -19,9 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Maeser Last Lectures # This is declared explicetly in the frontmatter
+author: >-
+ Developed and maintained by alumni and faculty.
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Last Lectures written at Karl G. Maeser Prepratory Academy.
+  Last Lectures written by the graduating classes 
+  at Karl G. Maeser Prepratory Academy.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maeserlastlectures.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

@@ -6,7 +6,8 @@ layout: default
 
 <ul class="post-list">
 	{%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
-	{% for post in site.categories.WINNER_2021 %}
+	{% for post in site.categories.2021 %}
+	{% if post.categories contains "Winner" %}
 	<li>
 	<span class="post-meta">{{ post.date | date: date_format }} • {{ post.author }}</span>
 	<h3>
@@ -18,5 +19,6 @@ layout: default
 		{{ post.excerpt }}
 	{%- endif -%}
 	</li>
+	{% endif %}
 	{% endfor %}
 </ul>

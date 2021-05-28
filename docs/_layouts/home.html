@@ -9,7 +9,22 @@ layout: default
 
   {{ content }}
 
+  <div>
+    <label for="yearSelector">Select Year: </label>
+    <select name="yearSelector" id="yearSelector" onchange="filter()">
+      <option value="all">All</option>
+      <option value="2021" selected>2021</option>
+      <option value="2020">2020</option>
+    </select>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="onlyWinners" name="onlyWinner" onchange="filter()">
+    <label for="onlyWinners">Show Only Winners</label>
+  </div>
 
+  <br />
+  
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -24,17 +39,24 @@ layout: default
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
       {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }} • {{ post.author }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+        <li class="post">
+          <div class="year-meta" data-year={{ post.date | date: "%Y" }} style="display: none"></div>
+          {% if post.categories contains "Winner" %}
+            <div class="winner-meta" data-win="yes" style="display: none"></div>
+          {%- else -%}
+            <div class="winner-meta" data-win="no" style="display: none"></div>
+          {%- endif -%}
+
+          <span class="post-meta">{{ post.author }} • {{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
       {%- endfor -%}
     </ul>
 
@@ -58,4 +80,42 @@ layout: default
 
   {%- endif -%}
 
+  <script type="text/javascript">
+    function filter() {
+      // Get if showing only winners
+      var winnerSelector = document.getElementById("onlyWinners")
+      var showOnlyWinners = winnerSelector.checked
+
+      // Get the Year selected
+      var selector = document.getElementById("yearSelector")
+      var year = selector.value;
+
+      // Show/Hide appropriate Posts
+      var posts = document.getElementsByClassName("post")
+
+      for (var i = 0; i < posts.length; ++i) {
+        var post = posts[i]
+
+        var currentYearMeta = post.getElementsByClassName('year-meta')[0]
+        var currentYear = currentYearMeta.getAttribute("data-year")
+
+        var isWinnerMeta = post.getElementsByClassName('winner-meta')[0]
+        var isWinner = isWinnerMeta.getAttribute("data-win")
+
+        if (currentYear === year || year === "all") {
+            if (isWinner === "no" && showOnlyWinners) {
+              post.style.display = "none"
+            }
+            else {
+              post.style.display = ""
+            }
+          }
+          else {
+            post.style.display = "none"
+          }
+      }
+    }
+    window.onload = filter
+
+    </script>
 </div>

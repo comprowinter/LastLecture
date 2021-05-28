@@ -2,7 +2,7 @@
 layout: post
 title:  "To My Dearest Problems"
 date:   May 2021
-categories: 2021 WINNER_2021
+categories: 2021 Winner
 author: Rachel Gundersen
 description: "First Place"
 ---
