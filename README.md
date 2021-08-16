@@ -1,38 +1,14 @@
-<h1 align="center">Welcome to Maeser Last Lecture 👋</h1>
-<p>
-</p>
+# Maeser Last Lecture Site
+![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-yellow.svg)
 
-> This a student and alumni maintained repository for Last Lectures given at Karl G. Maeser Prep Academy.
+> A student, faculty, and alumni maintained website for the Last Lectures given at Karl G. Maeser Prep Academy.
 
-### 🏠 [Homepage](maeserlastlectures.com)
+This site was built to maintain and present a list of past Last Lectures given at Karl G. Maeser Preperatory Academy during the Last Lecture Assembly. The graduating seniors spend their last year preparing a final lecture for the student body to share wisdom learned with remaining classmates and faculty. After a round of judging, the top 10 lectures are presented in the school, then three winners selected by a panel of faculty and alumni.
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+Feel free to [vist us here.](maeserlastlectures.com)
 
-## Contributors ✨
+## Contributions
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/robomonk1717"><img src="https://avatars1.githubusercontent.com/u/35753484?v=4" width="100px;" alt="robomonk1717"/><br /><sub><b>robomonk1717</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=robomonk1717" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ilias16"><img src="https://avatars0.githubusercontent.com/u/46326604?v=4" width="100px;" alt="ilias16"/><br /><sub><b>ilias16</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=ilias16" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/TeacherTed"><img src="https://avatars1.githubusercontent.com/u/45575751?v=4" width="100px;" alt="TeacherTed"/><br /><sub><b>TeacherTed</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=TeacherTed" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/zobiejrz"><img src="https://avatars3.githubusercontent.com/u/12979847?v=4" width="100px;" alt="Ben Zobrist"/><br /><sub><b>Ben Zobrist</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=zobiejrz" title="Code">💻</a> <a href="https://github.com/comprowinter/LastLecture/commits?author=zobiejrz" title="Documentation">📖</a> <a href="#maintenance-zobiejrz" title="Maintenance">🚧</a> <a href="#ideas-zobiejrz" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/comprowinter/LastLecture/issues?q=author%3Azobiejrz" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/thurley998"><img src="https://avatars2.githubusercontent.com/u/46353958?v=4" width="100px;" alt="thurley998"/><br /><sub><b>thurley998</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=thurley998" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.bengubler.com"><img src="https://avatars3.githubusercontent.com/u/25597854?v=4" width="100px;" alt="Ben Gubler"/><br /><sub><b>Ben Gubler</b></sub></a><br /><a href="https://github.com/comprowinter/LastLecture/commits?author=nebrelbug" title="Code">💻</a> <a href="#review-nebrelbug" title="Reviewed Pull Requests">👀</a></td>
-  </tr>
-</table>
+Contributions and commits generally come from current students, faculty, and alumni. If you are interested in contributing, feel free to reach out to <ted.gilbert@maeserprep.org> or <scott.couch@maeserprep.org>.
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-## Show your support
-
-Give a ⭐️ to support the project!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+**For seniors who don't want their last lecture on this webpage, feel free to reach out to get yours removed.**
