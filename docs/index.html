@@ -19,6 +19,9 @@
             <li><a href="https://maeserprep.org/">Back</a></li>
         </ul>
     </div>
+    <div id="header-logo">
+        <img src="../docs/img/MaeserPrepAcademy_MascotHeadBlack and White.png" alt="Maeser Prep Mascot">
+    </div>
     <div id='banner'>
         <div id="banner-center">
             <div id="banner-content">
@@ -32,13 +35,29 @@
             <h1 id="winner-heading">Winners</h1>
             <select id="select-year-dropdown" onchange="selectYear(this.value)">
                 <option value="" disabled selected>Select Year</option>
+                <option value="ll2019" onclick="selectYear('2019')">2019</option>
                 <option value="ll2020" onclick="selectYear('2020')">2020</option>
                 <option value="ll2021" onclick="selectYear('2021')">2021</option>
+                <option value="ll2022" onclick="selectYear('2022')">2022</option>
             </select>
         </div>
         <div class="winnerWrapper">
             <div class="item" id="filler">
                 <h1>Please Select a Year</h1>
+            </div>
+            <!-- 2019 -->
+            <div class='item ll2019' onclick="LoadPage('myEpicLecture2-Filbert-2019')">
+                <div class="placeWrapper"><h1 class='heading'>1</h1><h2 class='heading'>st</h2></div>
+                <div>My Epic Lecture 2<br>By: Ted Filbert</div>
+            </div>
+            <div class='item ll2019' onclick="LoadPage('theBetterStory-Bailey-2020')">
+                <div class="placeWrapper"><h1 class='heading'>2</h1><h2 class='heading'>nd</h2></div>
+                <div>The Better Story<br>By: Carson Bailey</div>
+            </div>
+            <div class='item ll2019' onclick="LoadPage('thickAsThieves-Felt-2020')">
+                <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
+                <div>Thick as Thieves<br>By: Claire Felt</div>
+            </div>
             </div>
             <!-- 2020 -->
             <div class='item ll2020' onclick="LoadPage('whyItDoesntMatter-Hassen-2020')">
@@ -65,6 +84,19 @@
             <div class='item ll2021' onclick="LoadPage('fortyTwo-Heaton-2021')">
                 <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
                 <div>42<br>By: Tanner Heaton</div>
+            </div>
+            <!-- 2022 -->
+            <div class='item ll2022' onclick="LoadPage('myEpicLecture-Gilbert-2022')">
+                <div class="placeWrapper"><h1 class='heading'>1</h1><h2 class='heading'>st</h2></div>
+                <div>My Epic Lecture<br>By: Ted Gilbert</div>
+            </div>
+            <div class='item ll2022' onclick="LoadPage('theBetterStory-Bailey-2020')">
+                <div class="placeWrapper"><h1 class='heading'>2</h1><h2 class='heading'>nd</h2></div>
+                <div>The Better Story<br>By: Carson Bailey</div>
+            </div>
+            <div class='item ll2022' onclick="LoadPage('thickAsThieves-Felt-2020')">
+                <div class="placeWrapper"><h1 class='heading'>3</h1><h2 class='heading'>rd</h2></div>
+                <div>Thick as Thieves<br>By: Claire Felt</div>
             </div>
         </div>
         <div class="about-wrapper">
