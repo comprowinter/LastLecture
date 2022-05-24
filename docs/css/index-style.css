@@ -4,17 +4,12 @@
     align-items: center;
 }
 
-
 #banner {
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-#headerlogo{
-    max-width:100%;
-    height:auto;
-}
 
 #banner-center {
     height: 400px;
