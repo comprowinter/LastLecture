@@ -1,5 +1,13 @@
 body {
 }
+/*This is to line up the navigation items with page elements for style, modify at your own risk*/
+#nav li {
+    width: 123px;
+}
+.navMenu {
+    width: 100%;
+    text-align: center;
+}
 
 #content-table {
     display: flex;
@@ -8,14 +16,27 @@ body {
     width: 100%;
     overflow: scroll;
     flex-shrink: 3;
-    border-left: 1px solid #020059;
-    border-top: 1px solid #020059;
 }
 
 #content-table table{
     width: 500px;
     border: none;
 }
+
+    #content-table tr:nth-child(odd) {
+        background-color: rgb(245, 245, 255);
+        color: black;
+    }
+    #content-table tr:nth-child(even) {
+        background-color: #ffffff;
+        color: black;
+    }
+
+    #content-table tr:nth-child(1) {
+        background-color: #020059;
+        color: white;
+    }
+
 
 #content-table td {  
     text-align: center;
@@ -33,7 +54,7 @@ body {
 
 #content tr:hover td {
     background-color: rgb(199, 199, 255);
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 #page-heading {
@@ -55,6 +76,7 @@ body {
 }
 
 #footer {
+    
 }
 
 #page-wrapper {
